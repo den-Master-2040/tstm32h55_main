@@ -1,0 +1,5 @@
+../Core/Src/ipc_m7.c:16:6:ipc_m7_init	1
+../Core/Src/ipc_m7.c:25:6:ipc_m7_send_value	1
+../Core/Src/ipc_m7.c:37:6:HSEM1_IRQHandler	1
+../Core/Src/ipc_m7.c:40:6:HAL_HSEM_FreeCallback	3
+../Core/Src/ipc_m7.c:50:6:ipc_m7_wait_ack	3

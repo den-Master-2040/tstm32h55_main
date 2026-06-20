@@ -1,0 +1,5 @@
+../Core/Src/web.c:81:13:web_task	8	static,ignoring_inline_asm
+../Core/Src/web.c:19:13:ipc_send_cmd	8	static,ignoring_inline_asm
+../Core/Src/web.c:31:13:handle_command	24	static
+../Core/Src/web.c:48:13:ev_handler	32	static
+../Core/Src/web.c:95:6:web_server_start	16	static,ignoring_inline_asm
