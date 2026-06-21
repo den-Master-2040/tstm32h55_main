@@ -1,5 +1,5 @@
-../Core/Src/ipc_m7.c:16:6:ipc_m7_init	16	static
-../Core/Src/ipc_m7.c:25:6:ipc_m7_send_value	8	static,ignoring_inline_asm
-../Core/Src/ipc_m7.c:37:6:HSEM1_IRQHandler	8	static
-../Core/Src/ipc_m7.c:40:6:HAL_HSEM_FreeCallback	8	static
-../Core/Src/ipc_m7.c:50:6:ipc_m7_wait_ack	24	static
+../Core/Src/ipc_m7.c:16:6:ipc_m7_init	16	static,ignoring_inline_asm
+../Core/Src/ipc_m7.c:29:6:ipc_m7_send_value	8	static,ignoring_inline_asm
+../Core/Src/ipc_m7.c:41:6:HSEM1_IRQHandler	8	static
+../Core/Src/ipc_m7.c:44:6:HAL_HSEM_FreeCallback	8	static
+../Core/Src/ipc_m7.c:54:6:ipc_m7_wait_ack	24	static

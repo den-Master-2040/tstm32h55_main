@@ -1,5 +1,6 @@
-../Core/Src/web.c:81:13:web_task	2
 ../Core/Src/web.c:19:13:ipc_send_cmd	1
 ../Core/Src/web.c:31:13:handle_command	9
 ../Core/Src/web.c:48:13:ev_handler	4
+../Core/Src/web.c:65:13:pump_frames	6
+../Core/Src/web.c:81:13:web_task	2
 ../Core/Src/web.c:95:6:web_server_start	2

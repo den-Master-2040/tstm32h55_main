@@ -19,6 +19,10 @@ void ipc_m7_init(void) {
     HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(IPC_HSEM_ACK));
     HAL_NVIC_SetPriority(HSEM1_IRQn, 6, 0);
     HAL_NVIC_EnableIRQ(HSEM1_IRQn);
+    g_ipc.ring.head = 0;
+    g_ipc.ring.tail = 0;
+    g_ipc.ring.drops = 0;
+    __DSB();
 }
 
 /* отправить значение, дёрнуть CM4 */

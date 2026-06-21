@@ -87,7 +87,7 @@ static void web_task(void *arg) {
     for (;;) {
         mg_mgr_poll(&mgr, 5);    /* 5 мс → плавный поток, низкая латентность */
 
-        //pump_frames();
+        pump_frames();
 
     }
 }
