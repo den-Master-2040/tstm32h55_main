@@ -5,3 +5,8 @@
 *.mk
 *.cyclo
 
+*.mk
+*.list
+*.o
+*.d
+*.su
