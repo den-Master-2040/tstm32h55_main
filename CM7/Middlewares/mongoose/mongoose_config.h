@@ -7,7 +7,7 @@
 
 #pragma once
 
-#define MG_ARCH MG_ARCH_CUBE
+#define MG_ARCH MG_ARCH_NEWLIB
 #define MG_ENABLE_FREERTOS 1
 #define MG_ENABLE_TCPIP   0   /* НЕ используем встроенный стек Mongoose */
 #define MG_ENABLE_LWIP    1   /* и его lwip-драйвер тоже нет           */
