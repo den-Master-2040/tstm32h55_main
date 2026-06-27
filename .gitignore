@@ -1,3 +1,7 @@
 *.s
 *.d
 *.o
+*.su
+*.mk
+*.cyclo
+/CM4/Debug
